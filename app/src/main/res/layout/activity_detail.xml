@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Imagen grande del país -->
+    <ImageView
+        android:id="@+id/ivFlagLarge"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Large Flag" />
+
+    <!-- Nombre del país -->
+    <TextView
+        android:id="@+id/tvCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:text="Nombre del País" />
+
+    <!-- Capital -->
+    <TextView
+        android:id="@+id/tvCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Capital: " />
+
+    <!-- Región -->
+    <TextView
+        android:id="@+id/tvRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Región: " />
+
+    <!-- Población -->
+    <TextView
+        android:id="@+id/tvPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Población: " />
+</LinearLayout>
+
